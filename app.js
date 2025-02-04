@@ -42,22 +42,3 @@ function sortearAmigo() {
     let resultado = document.getElementById("resultado");
     resultado.innerHTML = `<p>🎉 El amigo secreto es: <strong>${amigoSorteado}</strong> 🎉</p>`;
 }
-
-/* Función para sortear un amigo aleatorio y ocultar la lista
-function sortearAmigo() {
-    if (amigos.length === 0) {
-        alert("No hay amigos en la lista para sortear.");
-        return;
-    }
-
-    let indiceAleatorio = Math.floor(Math.random() * amigos.length);
-    let amigoSorteado = amigos[indiceAleatorio];
-
-    // Ocultar la lista de amigos
-    let lista = document.getElementById("listaAmigos");
-    lista.innerHTML = ""; // También podrías usar lista.style.display = "none";
-
-    // Mostrar solo el amigo sorteado
-    let resultado = document.getElementById("resultado");
-    resultado.innerHTML = `<p>🎉 El amigo secreto es: <strong>${amigoSorteado}</strong> 🎉</p>`;
-} */
